@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dewronger Creations</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Algerian&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background:url('http://i.imgur.com/M6h5JgQ.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        h1, h2, h3 {
+            color: blue;
+            font-family: 'Algerian', serif;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px #aaa;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px black;
+        }
+        .about {
+            font-size: 18px;
+        }
+        .motto {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .leaders {
+            margin-top: 20px;
+        }
+        .contact-list {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+        .form-section {
+            margin-top: 20px;
+        }
+        .form-section label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-section input {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-section button {
+            padding: 10px;
+            background-color: yellow;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-section button:hover {
+            background-color: blue;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-weight: 300;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            text-decoration: none;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="login-page">
+        <div class="section form-section">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="signup-name">Name:</label>
+                <input type="text" id="signup-name" name="name" required>
+                <label for="signup-email">Email:</label>
+                <input type="email" id="signup-email" name="email" required>
+                <label for="signup-phone">Phone Number:</label>
+                <input type="tel" id="signup-phone" name="phone" required>
+                <label for="signup-password">Password (8 digits):</label>
+                <input type="password" id="signup-password" name="password" minlength="8" maxlength="8" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="section form-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-phone">Phone Number:</label>
+                <input type="tel" id="login-phone" name="phone" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <h1><u>Dewronger Creations</u></h1>
+        <div class="section about">
+            <p>Dewronger Creations is a youth empowerment group that was created on 17th September 2023. Our aim is to empower the youth to realize and improve their talent in sectors such as modelling, modern dancing, and content creation.</p>
+        </div>
+
+        <div class="section motto">
+            <p><b>MOTTO: EMPOWERING THE YOUTH FOR A BETTER TOMORROW</b>.</p>
+        </div>
+
+        <h2><u>Dewronger Creations Leaders and their Contact</u></h2>
+        <div class="section leaders">
+            <ol class="contact-list">
+                <li>Boniface Mwenda (Group President) - +254740642990</li>
+                <li>James Masese (Group Deputy President) - +254726232298</li>
+                <li>Ian Mwangangi (Group Secretary) - +254713020146</li>
+                <li>Pasqueline Nyokabi (Group Treasurer) - +254114709263</li>
+            </ol>
+        </div>
+
+        <p style="color:blue;text-align:center;font-size:26px;"><b><u>RULES FOR DEWRONGER CREATIONS</b></u></p>
+        <p style="color:green"><b>NB: All members are expected to follow the rules and regulations. Failure to uphold the rules will lead to automatic removal from the group.</b></p>
+        <ol>
+            <li>Time management.</li>
+            <li>Respect all members of the group, especially the leaders.</li>
+            <li>Always take part in group projects.</li>
+            <li>Always be present for group online meetings on WhatsApp (Wednesdays) and Facebook (Fridays).</li>
+            <li>Talk out any issue if you have one.</li>
+            <li>No addition of new members to the group unless verified by any of the group leaders.</li>
+            <li>Dress neatly.</li>
+            <li>No drugs are allowed.</li>
+            <li>No missing out on group activities unless you present a genuine apology to the group secretary.</li>
+        </ol>
+        <p style="color:green"><b>All members are required to submit a copy of their ID. If a member doesn't have an ID, they are required to bring a copy of their parent's/guardian's ID.</b></p>
+        <p style="color:green"><b>The ID should be submitted to the group's secretary via email or WhatsApp.</b></p>
+
+        <h3 style="color:blue;font-size:26px;"><b><u>Dewronger Creations Social Media Handles</b></u></h3>
+        <div class="section">
+            <ol class="contact-list">
+                <li><b>TikTok</b> - Dewronger</li>
+                <li><b>WhatsApp</b> - +254713020146</li>
+                <li><b>Facebook</b> - Dewronger Creations</li>
+                <li><b>YouTube</b> - Dewronger Creations</li>
+                <li><b>Email</b> - dewrongercreations254@gmail.com</li>
+            </ol>
+        </div>
+
+        <div class="section form-section">
+            <p style="color:purple;font-size:27;"><b>Always remember that the darkest of nights produce the brightest stars.<br>By:<br>Dorcas Wanjiru (Group Main Advisor)</b></p>
+        </div>
+
+        <h2 style="color:blue"><b><u>Dewronger Creations Event Table 2024</u></b></h2>
+        <table>
+            <tr>
+                <th style="color:green;font-size:19px;"><b>Event</b></th>
+                <th style="color:green;font-size:19px;"><b>Month</b></th>
+                <th style="color:green;font-size:19px;"><b>Budget</b></th>
+            </tr>
+            <tr>
+                <td><b>Visit to C.D.E.C</b></td>
+                <td><b>August</b></td>
+                <td><b>Ksh. 200 per member</b></td>
+            </tr>
+            <tr>
+                <td><b>Group Anniversary</b></td>
+                <td><b>August</b></td>
+                <td><b>Ksh. 500 per member</b></td>
+            </tr>
+            <tr>
+                <td><b>Group Registration</b></td>
+                <td><b>November</b></td>
+                <td><b>Ksh. 200 per member</b></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        const signupData = [];
+
+        document.getElementById('signup-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('signup-name').value;
+            const email = document.getElementById('signup-email').value;
+            const phone = document.getElementById('signup-phone').value;
+            const password = document.getElementById('signup-password').value;
+            signupData.push({ name, email, phone, password });
+            alert('Sign up successful!');
+            document.getElementById('signup-form').reset();
+        });
+
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const phone = document.getElementById('login-phone').value;
+            const password = document.getElementById('login-password').value;
+
+            const user = signupData.find(user => user.phone === phone && user.password === password);
+            if (user) {
+                document.getElementById('login-page').classList.add('hidden');
+                document.getElementById('main-content').classList.remove('hidden');
+            } else {
+                alert('Invalid phone number or password.');
+            }
+            document.getElementById('login-form').reset();
+        });
+    </script>
+</body>
+</html>
